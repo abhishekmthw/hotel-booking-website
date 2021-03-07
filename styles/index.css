@@ -1,4 +1,19 @@
+#search-bar {
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    background-position: center;
+    height: 380px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#city-cards {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
 .city-image {
     height: 150px;
     width: 150px;
+    padding: 4%;
+    border-radius: 25%;
 }
