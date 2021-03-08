@@ -44,3 +44,36 @@
     font-family: cursive;
     font-weight: bold;
 }
+@media only screen and (max-width: 576px) {
+    #hotel-details {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 90%;
+    }
+    #hotel-detail {
+        padding-left: 0;
+    }
+    #details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #hotel-details {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #hotel-details {
+        margin-top: 4%;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(132,136,139);
+        height: 203px;
+        width: 50%;
+    }
+}

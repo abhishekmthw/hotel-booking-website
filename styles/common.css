@@ -88,3 +88,17 @@ a:active {
 #copyright {
     font-size: 10px;
 }
+.starRating {
+    color: black;
+}
+.checked {
+    color:orange;
+}
+@media only screen and (max-width: 576px) {
+    #contact-us {
+        margin: 6px;
+    }
+    #social-media {
+        padding-right: 15px;
+    }
+}

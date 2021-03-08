@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 4% 0;
+    padding: 4% 20%;
 }
 .city-card {
     position: relative;
@@ -63,4 +63,42 @@
 }
 #view-more {
     text-align: center;
+}
+@media only screen and (max-width: 576px) {
+    #padding {
+        height: 160px;
+    }
+    #search-bar {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #city-cards {
+        margin: 0 10%;
+        justify-content: space-evenly;
+    }
+    #search-bar {
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #search-bar {
+        display: block;
+        width: 28%;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        border-radius: 12px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #f1f1f1;
+        outline: none; 
+    }
+    #city-cards {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding: 4% 20%;
+    }
 }
