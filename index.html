@@ -11,8 +11,12 @@
     <div id="body">
         <header>
             <div id="header">
-                <img src="assests/images/logo.png" id="logo" alt="logo" />
-                <a href="login.html" id="login">Login</a>
+                <div>
+                    <img src="assests/images/logo.png" id="logo" alt="logo" />
+                </div>
+                <div>
+                    <a href="login.html" id="login">Login</a>
+                </div>
             </div>
         </header>
         <div id="content">
@@ -21,16 +25,30 @@
                 <input id="search-bar" type="text" placeholder="City" />
             </div>
             <div id="city-cards">
-                <a href="list.html">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-                        alt="City Image 1" class="city-image" />
-                </a>
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="City Image 2"
-                    class="city-image" />
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="City Image 3"
-                    class="city-image" />
-                <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-                    alt="City Image 4" class="city-image" />
+                <div class="city-card">
+                    <a href="list.html">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                            alt="City Image 1" class="city-image" title="Delhi" />
+                    </a>
+                    <a href="list.html">
+                        <p class="img-description">Delhi</p>
+                    </a>
+                </div>
+                <div class="city-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt="City Image 2"
+                        class="city-image" title="Goa" />
+                    <p class="img-description">Goa</p>
+                </div>
+                <div class="city-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+                        alt="City Image 3" class="city-image" title="Hyderabad" />
+                    <p class="img-description">Hyderabad</p>
+                </div>
+                <div class="city-card">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+                        alt="City Image 4" class="city-image" title="Kolkata" />
+                    <p class="img-description">Kolkata</p>
+                </div>
             </div>
             <div id="view-more">
                 <a href=#>View More >></a>
@@ -40,6 +58,9 @@
             <div id="footer">
                 <div id="contact-us">
                     <a href="contact.html">Contact Us</a>
+                </div>
+                <div id="copyright">
+                    &copy; 2020 ROOM SEARCH PVT. LTD.
                 </div>
                 <div id="social-media">
                     <a href="https://www.facebook.com/" target="_blank">
@@ -51,9 +72,6 @@
                     <a href="https://www.twitter.com/" target="_blank">
                         <img src="assests/images/twitter.png" class="social-logo">
                     </a>
-                </div>
-                <div id="copyright">
-                    &copy; 2020 ROOM SEARCH PVT. LTD.
                 </div>
             </div>
         </footer>

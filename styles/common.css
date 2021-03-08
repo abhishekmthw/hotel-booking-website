@@ -9,7 +9,10 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-
+}
+#content {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 a:link {
     color: black;
@@ -28,45 +31,41 @@ a:active {
     text-decoration: none;
 }
 #header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: rosybrown;
     position: fixed;
-    top: 0;
 }
-#content {
-    margin: 66px 0 60px;
-}
+
 #footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: rosybrown;
     position: fixed;
     bottom: 0;
+    height: 65px;
 }
 #logo {
+    padding: 5px 0 0 25px;
     height: 60px;
     width: 60px;
-    padding-top: 2px;
 }
 #login {
-    float: right;
-    padding: 23px 25px 0 0;
-}
-#contact-us {
-    display: block;
-    float: left;
-    padding: 25px 80% 0 25px;
-}
-#social-media {
-    display: block;
-    float: right;
-    padding: 25px 25px 0 0;
-}
-#copyright {
-    display: inline;
-    padding-left: 45%;
-    font-size: 10px;
+    padding-right: 50px;
 }
 .social-logo {
     height: 20px;
     width: 22px;
+}
+#contact-us {
+    padding-left: 25px;
+}
+#social-media {
+    padding-right: 25px;
 }

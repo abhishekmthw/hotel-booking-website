@@ -1,13 +1,23 @@
+#list-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
 .hotel-cards {
-    display: inline-block;
-    margin: 2% 4%;
-    background-color: rgb(132,136,139);
+    margin: 2% 5%;
+    background-color: lightgrey;
+    height: 200px;
     width: 40%;
-    padding-bottom: 1%;
+}
+.hotel-card {
+    display: flex;
+    flex-direction: row;
 }
 .hotel-image {
     height: 200px;
     width: 250px;
+    margin-right: 20px;
 }
 #select a {
     padding: 2%;
@@ -15,7 +25,6 @@
 }
 #select {
     text-align: center;
-    padding-top: 2%;
 }
 #map-view {
     display: none;
