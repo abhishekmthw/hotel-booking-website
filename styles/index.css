@@ -1,5 +1,5 @@
 #content {
-    padding-top: 69px;
+    padding-top: 60px;
 }
 #search-bar-image {
     background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
@@ -27,6 +27,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 4% 0;
 }
 .city-card {
@@ -43,6 +44,7 @@
     left: 0;
     right: 0;
     border-radius: 25%;
+    margin-top: 15px;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     visibility: hidden;

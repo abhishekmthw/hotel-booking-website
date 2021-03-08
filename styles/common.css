@@ -39,7 +39,23 @@ a:active {
     background-color: rosybrown;
     position: fixed;
 }
-
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.login-modal {
+    width: 100%;
+    align-self: center;
+}
+.login-fields {
+    margin: 2% 2% 2% 12%;
+    float: left;
+}
+.input-fields {
+    margin: 2% 12% 2% 2%;
+    float: right;
+}
 #footer {
     display: flex;
     flex-direction: row;
@@ -52,20 +68,23 @@ a:active {
     height: 65px;
 }
 #logo {
-    padding: 5px 0 0 25px;
     height: 60px;
     width: 60px;
+    margin-left: 10%;
 }
 #login {
-    padding-right: 50px;
+    margin-right: 25px;
 }
 .social-logo {
     height: 20px;
     width: 22px;
 }
 #contact-us {
-    padding-left: 25px;
+    margin-left: 15px;
 }
 #social-media {
     padding-right: 25px;
+}
+#copyright {
+    font-size: 10px;
 }

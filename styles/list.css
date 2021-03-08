@@ -1,14 +1,28 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+#pills-tab {
+    justify-content: center;
+}
 #list-view {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
+    margin: 0 !important;
+}
+#map-view {
+    margin: 0 !important;
 }
 .hotel-cards {
     margin: 2% 5%;
     background-color: lightgrey;
     height: 200px;
     width: 40%;
+}
+.hotel-cards:hover {
+    background-color: rosybrown;
 }
 .hotel-card {
     display: flex;
@@ -17,15 +31,7 @@
 .hotel-image {
     height: 200px;
     width: 250px;
-    margin-right: 20px;
 }
-#select a {
-    padding: 2%;
-    font-weight: bold;
-}
-#select {
-    text-align: center;
-}
-#map-view {
-    display: none;
+.hotel-detail {
+    padding: 3%;
 }
