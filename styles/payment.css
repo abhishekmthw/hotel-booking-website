@@ -3,6 +3,7 @@
     height: 20%;
     width: 50%;
     margin: 2% auto;
+    margin-top: 6%;
 }
 #hotel-image {
     height: 500px;
@@ -16,4 +17,7 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 1% 2%;
+}
+#pay-button {
+    padding-bottom: 2%;
 }

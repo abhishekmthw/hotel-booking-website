@@ -1,14 +1,11 @@
-#content {
-    margin: 0 4%;
-}
 #image-div {
-    margin-top: 2%;
+    padding: 2% 4% 0 4%;
 }
 #form-div {
-    margin-bottom: 1%;
+    padding: 0 4% 1% 4%;
 }
 #description-div {
-    margin: 1% 0 2% 0;
+    padding: 1% 4% 2% 4%;
 }
 #hotel-image {
     height: 500px;
