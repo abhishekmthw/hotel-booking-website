@@ -22,16 +22,16 @@
     background-color: #f1f1f1;
     outline: none; 
 }
-#city-cards {
+.city-cards {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 4% 20%;
+    padding: 2% 15%;
 }
 .city-card {
-    position: relative;
+    position:relative;
 }
 .img-description {
     text-align: center;
@@ -63,6 +63,7 @@
 }
 #view-more {
     text-align: center;
+    padding-bottom: 1%;
 }
 @media only screen and (max-width: 576px) {
     #padding {
@@ -73,9 +74,8 @@
     }
 }
 @media only screen and (min-width: 768px) {
-    #city-cards {
-        margin: 0 10%;
-        justify-content: space-evenly;
+    .city-cards {
+        padding: 4% 10%;
     }
     #search-bar {
         width: 400px;
@@ -93,12 +93,11 @@
         background-color: #f1f1f1;
         outline: none; 
     }
-    #city-cards {
+    .city-cards {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        padding: 4% 20%;
     }
 }
