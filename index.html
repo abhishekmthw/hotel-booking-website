@@ -24,46 +24,12 @@
 
 <body>
     <div id="body">
+
         <header>
-            <div id="header">
-                <div>
-                    <img src="assests/images/logo.png" id="logo" alt="logo" />
-                </div>
-                <div>
-                    <button id="login" type="button" class="btn btn-light btn-sm" data-bs-toggle="modal"
-                        data-bs-target="#loginModal">
-                        Login
-                    </button>
-                </div>
-            </div>
+            <div id="header"></div>
         </header>
         <div id="content">
             <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="loginModalLabel">Please Login</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <form action="index.html">
-                            <div class="modal-body">
-                                <div class="login-modal">
-                                    <label class="login-fields" for="username">Username:</label>
-                                    <input class="input-fields" type="text" name="username" placeholder="Enter Username"
-                                        autocomplete="off" required />
-                                </div>
-                                <div class="login-modal">
-                                    <label class="login-fields" for="password">Password:</label>
-                                    <input class="input-fields" type="password" name="password"
-                                        placeholder="Enter Password" required />
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <input type="submit" value="Login" class="btn btn-primary" />
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
             <div id="search-bar-image">
                 <div id="padding"></div>
@@ -95,7 +61,7 @@
                     <p class="img-description">Kolkata</p>
                 </div>
             </div>
-            <div class="city-cards">
+            <div class="city-cards" id="city-cards-more" style="display: none;">
                 <div class="city-card">
                     <a href="list.html">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/4d/46/b8/chennai-madras.jpg"
@@ -122,60 +88,18 @@
                 </div>
             </div>
             <div id="view-more">
-                <a href="index.html" class="btn btn-secondary">View More >></a>
+                <button type="button" class="btn btn-secondary" id="view-more-button" onclick="viewMore()">View
+                    More</button>
             </div>
             <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel"
                 aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="contactModalLabel">Get in touch</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <form action="index.html">
-                            <div class="modal-body">
-                                <div>
-                                    <div>Thank you for reaching out!!!</div>
-                                    <div>Please enter your email and we will get back to you.</div>
-                                </div>
-                                <p></p>
-                                <div>
-                                    <label for="email">Email: </label>
-                                    <input type="email" placeholder="Enter your email id" name="email" required />
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <input type="submit" value="Submit" class="btn btn-primary" />
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
         <footer>
-            <div id="footer">
-                <div id="contact-us">
-                    <button id="contact-us" type="button" class="btn btn-info btn-sm" data-bs-toggle="modal"
-                        data-bs-target="#contactModal">
-                        Contact Us
-                    </button>
-                </div>
-                <div id="copyright">
-                    &copy; 2020 ROOM SEARCH PVT. LTD.
-                </div>
-                <div id="social-media">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <img src="assests/images/facebook.png" class="social-logo">
-                    </a>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="assests/images/instagram.png" class="social-logo">
-                    </a>
-                    <a href="https://www.twitter.com/" target="_blank">
-                        <img src="assests/images/twitter.png" class="social-logo">
-                    </a>
-                </div>
-            </div>
+            <div id="footer"></div>
         </footer>
+        <script src="scripts/common.js"></script>
+        <script src="scripts/index.js"></script>
     </div>
 </body>
 

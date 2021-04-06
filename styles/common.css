@@ -75,6 +75,9 @@ a:active {
 #login {
     margin-right: 25px;
 }
+#logout {
+    margin-right: 25px;
+}
 .social-logo {
     height: 20px;
     width: 22px;
